@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="poky-morty"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="meta-oe"/>
+  <remote fetch="https://github.com/sarnold" name="meta-sla"/>
+  <remote fetch="https://github.com/VCTLabs" name="meta-vct"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
+
+  <project remote="yocto" revision="morty" name="poky" path="poky"/>
+  <project remote="meta-oe" revision="morty" name="meta-openembedded" path="poky/meta-openembedded"/>
+
+  <project remote="meta-vct" revision="morty" name="meta-freescale" path="poky/meta-freescale"/>
+  <project remote="yocto" revision="morty" name="meta-selinux" path="poky/meta-selinux"/>
+  <project remote="meta-vct" revision="morty" name="meta-freescale-3rdparty" path="poky/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="morty" name="meta-freescale-distro" path="poky/meta-freescale-distro"/>
+  <project remote="freescale" revision="morty" name="Documentation" path="poky/Documentation"/>
+  <project remote="meta-sla" revision="morty" name="meta-small-arm-extra" path="poky/meta-small-arm-extra"/>
+
+  <project remote="meta-qt5" revision="morty" name="meta-qt5" path="poky/meta-qt5"/>
+
+</manifest>
+
+
