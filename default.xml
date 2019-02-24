@@ -23,7 +23,7 @@
   <project remote="agherzan" revision="thud" name="meta-raspberrypi" path="poky/meta-raspberrypi"/>
   <project remote="freescale" revision="thud" name="meta-freescale-distro" path="poky/meta-freescale-distro"/>
   <project remote="freescale" revision="thud" name="Documentation" path="poky/Documentation"/>
-  <project remote="solidrun" revision="thud" name="meta-solidrun-arm-imx6" path="poky/meta-solidrun-arm-imx6"/>
+  <project remote="solidrun" revision="sumo" name="meta-solidrun-arm-imx6" path="poky/meta-solidrun-arm-imx6"/>
   <project remote="meta-sla" revision="master" name="meta-small-arm-extra" path="poky/meta-small-arm-extra"/>
 
   <project remote="madisongh" revision="master" name="meta-golang" path="poky/meta-golang"/>
