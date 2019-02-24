@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="poky-sumo"/>
+  <default sync-j="4" revision="poky-thud"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="meta-oe"/>
@@ -14,20 +14,20 @@
   <remote fetch="https://github.com/madisongh" name="madisongh"/>
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
 
-  <project remote="yocto" revision="sumo" name="poky" path="poky"/>
-  <project remote="meta-oe" revision="sumo" name="meta-openembedded" path="poky/meta-openembedded"/>
+  <project remote="yocto" revision="thud" name="poky" path="poky"/>
+  <project remote="meta-oe" revision="thud" name="meta-openembedded" path="poky/meta-openembedded"/>
 
-  <project remote="meta-vct" revision="sumo" name="meta-freescale" path="poky/meta-freescale"/>
-  <project remote="mender" revision="sumo" name="meta-mender" path="poky/meta-mender"/>
-  <project remote="meta-vct" revision="sumo" name="meta-freescale-3rdparty" path="poky/meta-freescale-3rdparty"/>
-  <project remote="agherzan" revision="sumo" name="meta-raspberrypi" path="poky/meta-raspberrypi"/>
-  <project remote="freescale" revision="sumo" name="meta-freescale-distro" path="poky/meta-freescale-distro"/>
-  <project remote="freescale" revision="sumo" name="Documentation" path="poky/Documentation"/>
-  <project remote="solidrun" revision="sumo" name="meta-solidrun-arm-imx6" path="poky/meta-solidrun-arm-imx6"/>
+  <project remote="meta-vct" revision="thud" name="meta-freescale" path="poky/meta-freescale"/>
+  <project remote="mender" revision="thud" name="meta-mender" path="poky/meta-mender"/>
+  <project remote="meta-vct" revision="thud" name="meta-freescale-3rdparty" path="poky/meta-freescale-3rdparty"/>
+  <project remote="agherzan" revision="thud" name="meta-raspberrypi" path="poky/meta-raspberrypi"/>
+  <project remote="freescale" revision="thud" name="meta-freescale-distro" path="poky/meta-freescale-distro"/>
+  <project remote="freescale" revision="thud" name="Documentation" path="poky/Documentation"/>
+  <project remote="solidrun" revision="thud" name="meta-solidrun-arm-imx6" path="poky/meta-solidrun-arm-imx6"/>
   <project remote="meta-sla" revision="master" name="meta-small-arm-extra" path="poky/meta-small-arm-extra"/>
 
   <project remote="madisongh" revision="master" name="meta-golang" path="poky/meta-golang"/>
-  <project remote="meta-qt5" revision="sumo" name="meta-qt5" path="poky/meta-qt5"/>
+  <project remote="meta-qt5" revision="thud" name="meta-qt5" path="poky/meta-qt5"/>
 
 </manifest>
 
