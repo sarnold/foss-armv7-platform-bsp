@@ -24,7 +24,7 @@
   <project remote="freescale" revision="thud" name="meta-freescale-distro" path="poky/meta-freescale-distro"/>
   <project remote="freescale" revision="thud" name="Documentation" path="poky/Documentation"/>
   <project remote="solidrun" revision="sumo" name="meta-solidrun-arm-imx6" path="poky/meta-solidrun-arm-imx6"/>
-  <project remote="meta-sla" revision="master" name="meta-small-arm-extra" path="poky/meta-small-arm-extra"/>
+  <project remote="meta-sla" revision="thud" name="meta-small-arm-extra" path="poky/meta-small-arm-extra"/>
 
   <project remote="madisongh" revision="master" name="meta-golang" path="poky/meta-golang"/>
   <project remote="meta-qt5" revision="thud" name="meta-qt5" path="poky/meta-qt5"/>
